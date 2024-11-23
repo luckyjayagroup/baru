@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/your-flutter-repo.git'
+                git 'https://github.com/luckyjayagroup/baru.git'
             }
         }
         stage('Install Dependencies') {
